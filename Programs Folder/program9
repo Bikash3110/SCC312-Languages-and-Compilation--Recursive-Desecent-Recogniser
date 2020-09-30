@@ -1,0 +1,10 @@
+begin
+	x1 := 0 ;
+	call get(x1) ;
+	x3 := 0 ;
+	for( x2 := 1; x2 < x1; x2 := x2 + 1 ) do
+		call put(x1, x2, x3);
+		x3 := x3 + x2
+	end loop ;
+	call put(x3)
+end

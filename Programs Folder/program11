@@ -1,0 +1,8 @@
+
+begin
+    x1 := "Part 1 " ;
+    x2 := "Part 2" ;
+    x1 := x1 + x2 ; -- concatenate a string (ok!)
+    call put(x2)
+end
+

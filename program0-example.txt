@@ -1,0 +1,158 @@
+rggSTART
+
+rggFILE Programs Folder/program0
+rggBEGIN StatementPart
+	rggTOKEN begin on line 1
+	rggBEGIN StatementList
+		rggBEGIN Statement
+			rggBEGIN AssignmentStatement
+				rggTOKEN IDENTIFIER 'x1' on line 2
+				rggTOKEN := on line 2
+				rggBEGIN Expression
+					rggBEGIN Term
+						rggBEGIN Factor
+							rggTOKEN NUMBER '0' on line 2
+						rggEND Factor
+					rggEND Term
+				rggEND Expression
+				rggDECL Variable: x1 <Number>
+			rggEND AssignmentStatement
+		rggEND Statement
+		rggTOKEN ; on line 2
+		rggBEGIN StatementList
+			rggBEGIN Statement
+				rggBEGIN ProcedureStatement
+					rggTOKEN call on line 3
+					rggTOKEN IDENTIFIER 'get' on line 3
+					rggTOKEN ( on line 3
+					rggBEGIN ArgumentList
+						rggTOKEN IDENTIFIER 'x1' on line 3
+					rggEND ArgumentList
+					rggTOKEN ) on line 3
+				rggEND ProcedureStatement
+			rggEND Statement
+			rggTOKEN ; on line 3
+			rggBEGIN StatementList
+				rggBEGIN Statement
+					rggBEGIN AssignmentStatement
+						rggTOKEN IDENTIFIER 'x2' on line 4
+						rggTOKEN := on line 4
+						rggBEGIN Expression
+							rggBEGIN Term
+								rggBEGIN Factor
+									rggTOKEN NUMBER '1' on line 4
+								rggEND Factor
+							rggEND Term
+						rggEND Expression
+						rggDECL Variable: x2 <Number>
+					rggEND AssignmentStatement
+				rggEND Statement
+				rggTOKEN ; on line 4
+				rggBEGIN StatementList
+					rggBEGIN Statement
+						rggBEGIN WhileStatement
+							rggTOKEN while on line 5
+							rggBEGIN Condition
+								rggTOKEN IDENTIFIER 'x1' on line 5
+								rggBEGIN ConditionalOperator
+									rggTOKEN /= on line 5
+								rggEND ConditionalOperator
+								rggTOKEN NUMBER '0' on line 5
+							rggEND Condition
+							rggTOKEN loop on line 5
+							rggBEGIN StatementList
+								rggBEGIN Statement
+									rggBEGIN AssignmentStatement
+										rggTOKEN IDENTIFIER 'x2' on line 6
+										rggTOKEN := on line 6
+										rggBEGIN Expression
+											rggBEGIN Term
+												rggBEGIN Factor
+													rggTOKEN IDENTIFIER 'x2' on line 6
+												rggEND Factor
+												rggTOKEN * on line 6
+												rggBEGIN Term
+													rggBEGIN Factor
+														rggTOKEN IDENTIFIER 'x1' on line 6
+													rggEND Factor
+												rggEND Term
+											rggEND Term
+										rggEND Expression
+									rggEND AssignmentStatement
+								rggEND Statement
+								rggTOKEN ; on line 6
+								rggBEGIN StatementList
+									rggBEGIN Statement
+										rggBEGIN AssignmentStatement
+											rggTOKEN IDENTIFIER 'x1' on line 7
+											rggTOKEN := on line 7
+											rggBEGIN Expression
+												rggBEGIN Term
+													rggBEGIN Factor
+														rggTOKEN IDENTIFIER 'x1' on line 7
+													rggEND Factor
+												rggEND Term
+												rggTOKEN - on line 7
+												rggBEGIN Expression
+													rggBEGIN Term
+														rggBEGIN Factor
+															rggTOKEN NUMBER '1' on line 7
+														rggEND Factor
+													rggEND Term
+												rggEND Expression
+											rggEND Expression
+										rggEND AssignmentStatement
+									rggEND Statement
+								rggEND StatementList
+							rggEND StatementList
+							rggTOKEN end on line 8
+							rggTOKEN loop on line 8
+						rggEND WhileStatement
+					rggEND Statement
+					rggTOKEN ; on line 8
+					rggBEGIN StatementList
+						rggBEGIN Statement
+							rggBEGIN AssignmentStatement
+								rggTOKEN IDENTIFIER 'text' on line 9
+								rggTOKEN := on line 9
+								rggTOKEN STRING 'the result is ' on line 9
+								rggDECL Variable: text <String>
+							rggEND AssignmentStatement
+						rggEND Statement
+						rggTOKEN ; on line 9
+						rggBEGIN StatementList
+							rggBEGIN Statement
+								rggBEGIN ProcedureStatement
+									rggTOKEN call on line 10
+									rggTOKEN IDENTIFIER 'put' on line 10
+									rggTOKEN ( on line 10
+									rggBEGIN ArgumentList
+										rggTOKEN IDENTIFIER 'text' on line 10
+									rggEND ArgumentList
+									rggTOKEN ) on line 10
+								rggEND ProcedureStatement
+							rggEND Statement
+							rggTOKEN ; on line 10
+							rggBEGIN StatementList
+								rggBEGIN Statement
+									rggBEGIN ProcedureStatement
+										rggTOKEN call on line 11
+										rggTOKEN IDENTIFIER 'put' on line 11
+										rggTOKEN ( on line 11
+										rggBEGIN ArgumentList
+											rggTOKEN IDENTIFIER 'x1' on line 11
+										rggEND ArgumentList
+										rggTOKEN ) on line 11
+									rggEND ProcedureStatement
+								rggEND Statement
+							rggEND StatementList
+						rggEND StatementList
+					rggEND StatementList
+				rggEND StatementList
+			rggEND StatementList
+		rggEND StatementList
+	rggEND StatementList
+	rggTOKEN end on line 12
+rggEND StatementPart
+rggTOKEN EOF on line 14
+rggSUCCESS

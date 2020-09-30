@@ -1,0 +1,158 @@
+Programs Folder\program0
+OK
+
+Programs Folder\program1
+OK
+
+Programs Folder\program2
+Compilation Exception
+	Caused by line 1 in Programs Folder\program2:
+			- Expected token(s)  statementList  but found (IDENTIFIER).
+ on line 1
+	Caused by line 1 in Programs Folder\program2:
+			- Expected token(s) <begin> but found (IDENTIFIER).
+ on line 1
+
+STOP
+
+Programs Folder\program3
+Compilation Exception
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s)  statementList  but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) <if> but found (EOF).
+ on line 12
+
+STOP
+
+Programs Folder\program4
+Compilation Exception
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s)  statementList  but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (end).
+ on line 8
+	Caused by Expected <if statement>, <assignment statement>, <until statement>, <while statement> or <procedure statement> on line 8
+
+STOP
+
+Programs Folder\program5
+Compilation Exception
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s)  statementList  but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) <loop> but found (;).
+ on line 8
+
+STOP
+
+Programs Folder\program6
+OK
+
+Programs Folder\program7
+Compilation Exception
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s)  statementList  but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (else).
+ on line 5
+	Caused by Expected <if statement>, <assignment statement>, <until statement>, <while statement> or <procedure statement> on line 5
+
+STOP
+
+Programs Folder\program8
+Compilation Exception
+	Caused by line 13 in Programs Folder\program8:
+			- Expected token(s) <EOF> but found (call).
+ on line 13
+
+STOP
+
+Programs Folder\program9
+OK
+
+Programs Folder\program10
+OK
+
+Programs Folder\program11
+OK
+
+Programs Folder\program12
+OK
+
+Programs Folder\program13
+OK
+

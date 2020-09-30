@@ -1,0 +1,1984 @@
+rggSTART
+
+rggFILE Programs Folder\program0
+rggBEGIN statementPart
+rggTOKEN begin on line 1
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggTOKEN := on line 2
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '0' on line 2
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x1 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 2
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 3
+rggTOKEN IDENTIFIER 'get' on line 3
+rggTOKEN ( on line 3
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 3
+rggEND ArgumentList
+rggTOKEN ) on line 3
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 3
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggTOKEN := on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 4
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x2 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 4
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN WhileStatement
+rggTOKEN while on line 5
+rggBEGIN condition
+rggTOKEN IDENTIFIER 'x1' on line 5
+rggBEGIN ConditionalOperator
+rggTOKEN /= on line 5
+rggEND ConditionalOperator
+rggTOKEN NUMBER '0' on line 5
+rggEND condition
+rggTOKEN loop on line 5
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggTOKEN := on line 6
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggEND Factor
+rggTOKEN * on line 6
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 6
+rggEND Factor
+rggEND Term
+rggEND Term
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 6
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 7
+rggTOKEN := on line 7
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 7
+rggEND Factor
+rggEND Term
+rggTOKEN - on line 7
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 7
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 8
+rggTOKEN loop on line 8
+rggEND WhileStatement
+rggEND statement
+rggTOKEN ; on line 8
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'text' on line 9
+rggTOKEN := on line 9
+rggTOKEN STRING 'the result is ' on line 9
+rggDECL Variable: text <String>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 9
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 10
+rggTOKEN IDENTIFIER 'put' on line 10
+rggTOKEN ( on line 10
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'text' on line 10
+rggEND ArgumentList
+rggTOKEN ) on line 10
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 10
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 11
+rggTOKEN IDENTIFIER 'put' on line 11
+rggTOKEN ( on line 11
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 11
+rggEND ArgumentList
+rggTOKEN ) on line 11
+rggEND ProcedureStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 12
+rggEND statementPart
+rggTOKEN EOF on line 14
+rggSUCCESS
+
+rggFILE Programs Folder\program1
+rggBEGIN statementPart
+rggTOKEN begin on line 1
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggTOKEN := on line 2
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '0' on line 2
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x1 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 2
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 3
+rggTOKEN IDENTIFIER 'get' on line 3
+rggTOKEN ( on line 3
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 3
+rggEND ArgumentList
+rggTOKEN ) on line 3
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 3
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggTOKEN := on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 4
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x2 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 4
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN WhileStatement
+rggTOKEN while on line 5
+rggBEGIN condition
+rggTOKEN IDENTIFIER 'x1' on line 5
+rggBEGIN ConditionalOperator
+rggTOKEN /= on line 5
+rggEND ConditionalOperator
+rggTOKEN NUMBER '0' on line 5
+rggEND condition
+rggTOKEN loop on line 5
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggTOKEN := on line 6
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggEND Factor
+rggTOKEN * on line 6
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 6
+rggEND Factor
+rggEND Term
+rggEND Term
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 6
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 7
+rggTOKEN := on line 7
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 7
+rggEND Factor
+rggEND Term
+rggTOKEN - on line 7
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 7
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 8
+rggTOKEN loop on line 8
+rggEND WhileStatement
+rggEND statement
+rggTOKEN ; on line 8
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'text' on line 9
+rggTOKEN := on line 9
+rggTOKEN STRING 'the result is ' on line 9
+rggDECL Variable: text <String>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 9
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 10
+rggTOKEN IDENTIFIER 'put' on line 10
+rggTOKEN ( on line 10
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'text' on line 10
+rggEND ArgumentList
+rggTOKEN ) on line 10
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 10
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 11
+rggTOKEN IDENTIFIER 'put' on line 11
+rggTOKEN ( on line 11
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 11
+rggEND ArgumentList
+rggTOKEN ) on line 11
+rggEND ProcedureStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 12
+rggEND statementPart
+rggTOKEN EOF on line 13
+rggSUCCESS
+
+rggFILE Programs Folder\program2
+rggBEGIN statementPart
+	Caused by line 1 in Programs Folder\program2:
+			- Expected token(s)  statementList  but found (IDENTIFIER).
+ on line 1
+
+
+rggFILE Programs Folder\program3
+rggBEGIN statementPart
+rggTOKEN begin on line 1
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggTOKEN := on line 2
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '0' on line 2
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x1 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 2
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 3
+rggTOKEN IDENTIFIER 'get' on line 3
+rggTOKEN ( on line 3
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 3
+rggEND ArgumentList
+rggTOKEN ) on line 3
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 3
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggTOKEN := on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 4
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x2 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 4
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN if statement
+rggTOKEN if on line 5
+rggBEGIN condition
+rggTOKEN IDENTIFIER 'x1' on line 5
+rggBEGIN ConditionalOperator
+rggTOKEN /= on line 5
+rggEND ConditionalOperator
+rggTOKEN NUMBER '0' on line 5
+rggEND condition
+rggTOKEN then on line 5
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggTOKEN := on line 6
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggEND Factor
+rggTOKEN * on line 6
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 6
+rggEND Factor
+rggEND Term
+rggEND Term
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 6
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'text' on line 7
+rggTOKEN := on line 7
+rggTOKEN STRING 'the result is ' on line 7
+rggDECL Variable: text <String>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 7
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 8
+rggTOKEN IDENTIFIER 'put' on line 8
+rggTOKEN ( on line 8
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'text' on line 8
+rggEND ArgumentList
+rggTOKEN ) on line 8
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 8
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 9
+rggTOKEN IDENTIFIER 'put' on line 9
+rggTOKEN ( on line 9
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 9
+rggEND ArgumentList
+rggTOKEN ) on line 9
+rggEND ProcedureStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 10
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s)  statementList  but found (EOF).
+ on line 12
+
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s)  statementList  but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s)  statementList  but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s)  statementList  but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s)  statementList  but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s)  statementList  but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) statementList but found (EOF).
+ on line 12
+	Caused by line 12 in Programs Folder\program3:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (EOF).
+ on line 12
+
+
+rggFILE Programs Folder\program4
+rggBEGIN statementPart
+rggTOKEN begin on line 1
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggTOKEN := on line 2
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '0' on line 2
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x1 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 2
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 3
+rggTOKEN IDENTIFIER 'get' on line 3
+rggTOKEN ( on line 3
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 3
+rggEND ArgumentList
+rggTOKEN ) on line 3
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 3
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggTOKEN := on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 4
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x2 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 4
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN WhileStatement
+rggTOKEN while on line 5
+rggBEGIN condition
+rggTOKEN IDENTIFIER 'x1' on line 5
+rggBEGIN ConditionalOperator
+rggTOKEN /= on line 5
+rggEND ConditionalOperator
+rggTOKEN NUMBER '0' on line 5
+rggEND condition
+rggTOKEN loop on line 5
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggTOKEN := on line 6
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggEND Factor
+rggTOKEN * on line 6
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 6
+rggEND Factor
+rggEND Term
+rggEND Term
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 6
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 7
+rggTOKEN := on line 7
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 7
+rggEND Factor
+rggEND Term
+rggTOKEN - on line 7
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 7
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 7
+rggBEGIN statementList
+rggBEGIN statement
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s)  statementList  but found (end).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s)  statementList  but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s)  statementList  but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s)  statementList  but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s)  statementList  but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s)  statementList  but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (end).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s)  statementList  but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s)  statementList  but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s)  statementList  but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s)  statementList  but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s)  statementList  but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) statementList but found (end).
+ on line 8
+	Caused by line 8 in Programs Folder\program4:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (end).
+ on line 8
+
+
+rggFILE Programs Folder\program5
+rggBEGIN statementPart
+rggTOKEN begin on line 1
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggTOKEN := on line 2
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '0' on line 2
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x1 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 2
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 3
+rggTOKEN IDENTIFIER 'get' on line 3
+rggTOKEN ( on line 3
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 3
+rggEND ArgumentList
+rggTOKEN ) on line 3
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 3
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggTOKEN := on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 4
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x2 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 4
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN WhileStatement
+rggTOKEN while on line 5
+rggBEGIN condition
+rggTOKEN IDENTIFIER 'x1' on line 5
+rggBEGIN ConditionalOperator
+rggTOKEN /= on line 5
+rggEND ConditionalOperator
+rggTOKEN NUMBER '0' on line 5
+rggEND condition
+rggTOKEN loop on line 5
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggTOKEN := on line 6
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggEND Factor
+rggTOKEN * on line 6
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 6
+rggEND Factor
+rggEND Term
+rggEND Term
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 6
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 7
+rggTOKEN := on line 7
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 7
+rggEND Factor
+rggEND Term
+rggTOKEN - on line 7
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 7
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s)  statementList  but found (;).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s)  statementList  but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s)  statementList  but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s)  statementList  but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s)  statementList  but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s)  statementList  but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) statementList but found (;).
+ on line 8
+	Caused by line 8 in Programs Folder\program5:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (;).
+ on line 8
+
+
+rggFILE Programs Folder\program6
+rggBEGIN statementPart
+rggTOKEN begin on line 1
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggTOKEN := on line 2
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '0' on line 2
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x1 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 2
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 3
+rggTOKEN IDENTIFIER 'get' on line 3
+rggTOKEN ( on line 3
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 3
+rggEND ArgumentList
+rggTOKEN ) on line 3
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 3
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggTOKEN := on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 4
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x2 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 4
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN WhileStatement
+rggTOKEN while on line 5
+rggBEGIN condition
+rggTOKEN IDENTIFIER 'x1' on line 5
+rggBEGIN ConditionalOperator
+rggTOKEN /= on line 5
+rggEND ConditionalOperator
+rggTOKEN NUMBER '0' on line 5
+rggEND condition
+rggTOKEN loop on line 5
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggTOKEN := on line 6
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'a' on line 6
+rggEND Factor
+rggEND Term
+rggTOKEN - on line 6
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'b' on line 6
+rggEND Factor
+rggEND Term
+rggTOKEN + on line 6
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'c' on line 6
+rggEND Factor
+rggEND Term
+rggTOKEN - on line 6
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'd' on line 6
+rggEND Factor
+rggEND Term
+rggTOKEN + on line 6
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'e' on line 6
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND expression
+rggEND expression
+rggEND expression
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 6
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 7
+rggTOKEN := on line 7
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'a' on line 7
+rggEND Factor
+rggTOKEN * on line 7
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'b' on line 7
+rggEND Factor
+rggEND Term
+rggEND Term
+rggTOKEN - on line 7
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'c' on line 7
+rggEND Factor
+rggTOKEN / on line 7
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'd' on line 7
+rggEND Factor
+rggEND Term
+rggEND Term
+rggTOKEN + on line 7
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'e' on line 7
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND expression
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 8
+rggTOKEN loop on line 8
+rggEND WhileStatement
+rggEND statement
+rggTOKEN ; on line 8
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'text' on line 9
+rggTOKEN := on line 9
+rggTOKEN STRING 'the result is ' on line 9
+rggDECL Variable: text <String>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 9
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 10
+rggTOKEN IDENTIFIER 'put' on line 10
+rggTOKEN ( on line 10
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'text' on line 10
+rggEND ArgumentList
+rggTOKEN ) on line 10
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 10
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 11
+rggTOKEN IDENTIFIER 'put' on line 11
+rggTOKEN ( on line 11
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 11
+rggEND ArgumentList
+rggTOKEN ) on line 11
+rggEND ProcedureStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 12
+rggEND statementPart
+rggTOKEN EOF on line 14
+rggSUCCESS
+
+rggFILE Programs Folder\program7
+rggBEGIN statementPart
+rggTOKEN begin on line 1
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggTOKEN := on line 2
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '0' on line 2
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x1 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 2
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 3
+rggTOKEN IDENTIFIER 'get' on line 3
+rggTOKEN ( on line 3
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 3
+rggEND ArgumentList
+rggTOKEN ) on line 3
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 3
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggTOKEN := on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 4
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x2 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 4
+rggBEGIN statementList
+rggBEGIN statement
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s)  statementList  but found (else).
+ on line 5
+
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s)  statementList  but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s)  statementList  but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s)  statementList  but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s)  statementList  but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s)  statementList  but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) statementList but found (else).
+ on line 5
+	Caused by line 5 in Programs Folder\program7:
+			- Expected token(s) <if>, <assignment>, <until>, <while> or <procedure> but found (else).
+ on line 5
+
+
+rggFILE Programs Folder\program8
+rggBEGIN statementPart
+rggTOKEN begin on line 1
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggTOKEN := on line 2
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '0' on line 2
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x1 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 2
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 3
+rggTOKEN IDENTIFIER 'get' on line 3
+rggTOKEN ( on line 3
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 3
+rggEND ArgumentList
+rggTOKEN ) on line 3
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 3
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggTOKEN := on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 4
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x2 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 4
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN WhileStatement
+rggTOKEN while on line 5
+rggBEGIN condition
+rggTOKEN IDENTIFIER 'x1' on line 5
+rggBEGIN ConditionalOperator
+rggTOKEN /= on line 5
+rggEND ConditionalOperator
+rggTOKEN NUMBER '0' on line 5
+rggEND condition
+rggTOKEN loop on line 5
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggTOKEN := on line 6
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggEND Factor
+rggTOKEN * on line 6
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 6
+rggEND Factor
+rggEND Term
+rggEND Term
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 6
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 7
+rggTOKEN := on line 7
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 7
+rggEND Factor
+rggEND Term
+rggTOKEN - on line 7
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 7
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 8
+rggTOKEN loop on line 8
+rggEND WhileStatement
+rggEND statement
+rggTOKEN ; on line 8
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'text' on line 9
+rggTOKEN := on line 9
+rggTOKEN STRING 'the result is ' on line 9
+rggDECL Variable: text <String>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 9
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 10
+rggTOKEN IDENTIFIER 'put' on line 10
+rggTOKEN ( on line 10
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'text' on line 10
+rggEND ArgumentList
+rggTOKEN ) on line 10
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 10
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 11
+rggTOKEN IDENTIFIER 'put' on line 11
+rggTOKEN ( on line 11
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 11
+rggEND ArgumentList
+rggTOKEN ) on line 11
+rggEND ProcedureStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 12
+rggEND statementPart
+
+rggFILE Programs Folder\program9
+rggBEGIN statementPart
+rggTOKEN begin on line 0
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 1
+rggTOKEN := on line 1
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '0' on line 1
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x1 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 1
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 2
+rggTOKEN IDENTIFIER 'get' on line 2
+rggTOKEN ( on line 2
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggEND ArgumentList
+rggTOKEN ) on line 2
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 2
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x3' on line 3
+rggTOKEN := on line 3
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '0' on line 3
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x3 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 3
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN for statement
+rggTOKEN for on line 4
+rggTOKEN ( on line 4
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggTOKEN := on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 4
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x2 <Number>
+rggEND AssignmentStatement
+rggTOKEN ; on line 4
+rggBEGIN condition
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggBEGIN ConditionalOperator
+rggTOKEN < on line 4
+rggEND ConditionalOperator
+rggTOKEN IDENTIFIER 'x1' on line 4
+rggEND condition
+rggTOKEN ; on line 4
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggTOKEN := on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggEND Factor
+rggEND Term
+rggTOKEN + on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 4
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND expression
+rggEND AssignmentStatement
+rggTOKEN ) on line 4
+rggTOKEN do on line 4
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 5
+rggTOKEN IDENTIFIER 'put' on line 5
+rggTOKEN ( on line 5
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x1' on line 5
+rggTOKEN , on line 5
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x2' on line 5
+rggTOKEN , on line 5
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x3' on line 5
+rggEND ArgumentList
+rggEND ArgumentList
+rggEND ArgumentList
+rggTOKEN ) on line 5
+rggEND ProcedureStatement
+rggEND statement
+rggTOKEN ; on line 5
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x3' on line 6
+rggTOKEN := on line 6
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x3' on line 6
+rggEND Factor
+rggEND Term
+rggTOKEN + on line 6
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x2' on line 6
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 7
+rggTOKEN loop on line 7
+rggEND for statement
+rggEND statement
+rggTOKEN ; on line 7
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 8
+rggTOKEN IDENTIFIER 'put' on line 8
+rggTOKEN ( on line 8
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x3' on line 8
+rggEND ArgumentList
+rggTOKEN ) on line 8
+rggEND ProcedureStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 9
+rggEND statementPart
+rggTOKEN EOF on line 10
+rggSUCCESS
+
+rggFILE Programs Folder\program10
+rggBEGIN statementPart
+rggTOKEN begin on line 0
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 1
+rggTOKEN := on line 1
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '0' on line 1
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x2 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 1
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN for statement
+rggTOKEN for on line 2
+rggTOKEN ( on line 2
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggTOKEN := on line 2
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '0' on line 2
+rggEND Factor
+rggEND Term
+rggEND expression
+rggDECL Variable: x1 <Number>
+rggEND AssignmentStatement
+rggTOKEN ; on line 2
+rggBEGIN condition
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggBEGIN ConditionalOperator
+rggTOKEN < on line 2
+rggEND ConditionalOperator
+rggTOKEN NUMBER '10' on line 2
+rggEND condition
+rggTOKEN ; on line 2
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggTOKEN := on line 2
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggEND Factor
+rggEND Term
+rggTOKEN + on line 2
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 2
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND expression
+rggEND AssignmentStatement
+rggTOKEN ) on line 2
+rggTOKEN do on line 2
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN for statement
+rggTOKEN for on line 3
+rggTOKEN ( on line 3
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 3
+rggTOKEN := on line 3
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '0' on line 3
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND AssignmentStatement
+rggTOKEN ; on line 3
+rggBEGIN condition
+rggTOKEN IDENTIFIER 'x2' on line 3
+rggBEGIN ConditionalOperator
+rggTOKEN < on line 3
+rggEND ConditionalOperator
+rggTOKEN NUMBER '10' on line 3
+rggEND condition
+rggTOKEN ; on line 3
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 3
+rggTOKEN := on line 3
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x2' on line 3
+rggEND Factor
+rggEND Term
+rggTOKEN + on line 3
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '1' on line 3
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND expression
+rggEND AssignmentStatement
+rggTOKEN ) on line 3
+rggTOKEN do on line 3
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'result' on line 4
+rggTOKEN := on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 4
+rggEND Factor
+rggTOKEN * on line 4
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggEND Factor
+rggEND Term
+rggEND Term
+rggEND expression
+rggDECL Variable: result <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 4
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 5
+rggTOKEN IDENTIFIER 'put' on line 5
+rggTOKEN ( on line 5
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'result' on line 5
+rggEND ArgumentList
+rggTOKEN ) on line 5
+rggEND ProcedureStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 6
+rggTOKEN loop on line 6
+rggEND for statement
+rggEND statement
+rggEND statementList
+rggTOKEN end on line 7
+rggTOKEN loop on line 7
+rggEND for statement
+rggEND statement
+rggTOKEN ; on line 7
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 8
+rggTOKEN IDENTIFIER 'put' on line 8
+rggTOKEN ( on line 8
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x2' on line 8
+rggEND ArgumentList
+rggTOKEN ) on line 8
+rggEND ProcedureStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 9
+rggEND statementPart
+rggTOKEN EOF on line 10
+rggSUCCESS
+
+rggFILE Programs Folder\program11
+rggBEGIN statementPart
+rggTOKEN begin on line 1
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggTOKEN := on line 2
+rggTOKEN STRING 'Part 1 ' on line 2
+rggDECL Variable: x1 <String>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 2
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 3
+rggTOKEN := on line 3
+rggTOKEN STRING 'Part 2' on line 3
+rggDECL Variable: x2 <String>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 3
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 4
+rggTOKEN := on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 4
+rggEND Factor
+rggEND Term
+rggTOKEN + on line 4
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 4
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 5
+rggTOKEN IDENTIFIER 'put' on line 5
+rggTOKEN ( on line 5
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x2' on line 5
+rggEND ArgumentList
+rggTOKEN ) on line 5
+rggEND ProcedureStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 6
+rggEND statementPart
+rggTOKEN EOF on line 8
+rggSUCCESS
+
+rggFILE Programs Folder\program12
+rggBEGIN statementPart
+rggTOKEN begin on line 1
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggTOKEN := on line 2
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x1' on line 2
+rggEND Factor
+rggEND Term
+rggTOKEN + on line 2
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '5' on line 2
+rggEND Factor
+rggEND Term
+rggEND expression
+rggEND expression
+rggDECL Variable: x1 <Number>
+rggEND AssignmentStatement
+rggEND statement
+rggEND statementList
+rggTOKEN end on line 3
+rggEND statementPart
+rggTOKEN EOF on line 5
+rggSUCCESS
+
+rggFILE Programs Folder\program13
+rggBEGIN statementPart
+rggTOKEN begin on line 1
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 2
+rggTOKEN := on line 2
+rggTOKEN STRING 'A string variable' on line 2
+rggDECL Variable: x2 <String>
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 2
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN AssignmentStatement
+rggTOKEN IDENTIFIER 'x2' on line 3
+rggTOKEN := on line 3
+rggBEGIN expression
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN IDENTIFIER 'x2' on line 3
+rggEND Factor
+rggTOKEN * on line 3
+rggBEGIN Term
+rggBEGIN Factor
+rggTOKEN NUMBER '3' on line 3
+rggEND Factor
+rggEND Term
+rggEND Term
+rggEND expression
+rggEND AssignmentStatement
+rggEND statement
+rggTOKEN ; on line 3
+rggBEGIN statementList
+rggBEGIN statement
+rggBEGIN ProcedureStatement
+rggTOKEN call on line 4
+rggTOKEN IDENTIFIER 'put' on line 4
+rggTOKEN ( on line 4
+rggBEGIN ArgumentList
+rggTOKEN IDENTIFIER 'x2' on line 4
+rggEND ArgumentList
+rggTOKEN ) on line 4
+rggEND ProcedureStatement
+rggEND statement
+rggEND statementList
+rggEND statementList
+rggEND statementList
+rggTOKEN end on line 5
+rggEND statementPart
+rggTOKEN EOF on line 7
+rggSUCCESS
+Programs Folder\program14 does not exist
+
+rggFINISH

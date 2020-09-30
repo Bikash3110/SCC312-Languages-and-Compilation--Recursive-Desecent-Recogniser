@@ -1,0 +1,7 @@
+
+begin
+    x2 := "A string variable" ;
+    x2 := x2 * 3 ; -- multiply a string (error!)
+    call put(x2)
+end
+
